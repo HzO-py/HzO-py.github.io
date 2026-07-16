@@ -2,8 +2,24 @@ services:
   jekyll-site:
     image: jekyll-site
     build: .
-    volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
-    user: 1000:1000
-    environment: [ JEKYLL_ENV=docker ]
-    command: jekyll serve -H 0.0.0.0 -w --config _config.yml,_config_docker.yml
+
+    volumes:
+      - .:/usr/src/app
+
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+
+    user: "1000:1000"
+
+    environment:
+      - JEKYLL_ENV=docker
+
+    command: >
+      jekyll serve
+      -H 0.0.0.0
+      -w
+      --livereload
+      --livereload-port 35729
+      --force_polling
+      --config _config.yml,_config_docker.yml

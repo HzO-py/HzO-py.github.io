@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zequan Liang"
 title_separator          : "-"
 name                     : &name "Zequan Liang"
-description              : &description "Machine Learning, Deep Learning, Signal Processing, Wearable Healthcare, Multimodal Fusion"
+description              : &description "CS Ph.D."
 url                      : "https://hzo-py.github.io" # Not provided in the CV; set this to the deployed site URL.
                                                            # Example: "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,8 +23,9 @@ repository               : "HzO-py/HzO-py.github.io" # Not provided in the CV; s
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information explicitly documented in the CV
+  avatar           : "profile.png"
   name             : "Zequan Liang"
-  bio              : "Machine Learning, Deep Learning, Signal Processing, Wearable Healthcare, Multimodal Fusion"
+  bio              : "CS Ph.D."
   employer         : "University of California, Davis"
   email            : "zqliang@ucdavis.edu"
 
@@ -34,9 +35,8 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Articles'
-  conferences:
-    title: 'Conference Papers'
+    title: = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -72,7 +72,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
