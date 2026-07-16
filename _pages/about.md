@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+description: "Zequan Liang's personal website"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +10,7 @@ redirect_from:
 
 **= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =**
 
-I know my Chinese name can be difficult to pronounce, so please feel free to call me **Lucas**.
+Hi, I am **Zequan Liang**. I know my Chinese name can be difficult to pronounce, so please feel free to call me **Lucas**.
 
 I am a second-year Ph.D. student in Computer and Information Science at the University of California, Davis, advised by Prof. Houman Homayoun.
 
