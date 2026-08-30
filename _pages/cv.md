@@ -37,33 +37,25 @@ Research Experience
 
 ### Machine Learning for Physiological Signal Modeling
 
-* Developed a predictor-guided Transformer framework for reconstructing PPG signals for SpO₂ estimation using random temporal masking and joint time-domain, frequency-domain, and SpO₂-prediction losses.
+* Developed a compact, task-agnostic PPG foundation model via self-supervised knowledge distillation, transferring representations from a pretrained PPG foundation model to a lightweight Transformer using masked temporal reconstruction, global representation alignment, and cosine-similarity distillation for downstream physiological tasks.
 
-* Trained a Transformer-based PPG reconstructor and self-attention BiLSTM SpO₂ regressor through stage-wise optimization.
+* Developed a predictor-guided, stage-wise Transformer framework for reconstructing low-quality dual-wavelength PPG signals using masked temporal reconstruction, time-domain and frequency-domain objectives, and an SpO$_2$-prediction constraint to preserve physiologically relevant information.
 
-* Developed a transfer-learning framework with a self-attention BiLSTM by pretraining on clinical PPG data and fine-tuning on low-sampling-rate wearable PPG for SpO₂ estimation.
+  * Developed a transfer-learning framework with a self-attention BiLSTM by pretraining on clinical PPG data and fine-tuning on low-sampling-rate wearable PPG for SpO$_2$ estimation, and co-designed a related BiLSTM-attention architecture for continuous user authentication.
 
-* Co-designed a related BiLSTM-attention architecture for continuous user authentication.
+  * Developed a generalizable blood-pressure estimation framework based on attention-fused CNN features from multi-wavelength PPG signals, integrating curriculum learning from hypertension classification to BP regression and gradient-reversal adversarial training to learn subject-invariant features.
 
-* Developed a generalizable blood-pressure estimation framework based on attention-fused CNN features from multi-wavelength PPG signals.
+* Developed an XGBoost-based SpO$_2$ confidence-assessment model using PPG signal-quality indices and accelerometer data as inputs, with SpO$_2$ prediction error serving as the supervision target.
 
-* Integrated curriculum learning from hypertension classification to blood-pressure regression and gradient-reversal adversarial training to learn subject-invariant features.
-
-* Developed an XGBoost-based SpO₂ confidence-assessment model using PPG signal-quality indices and accelerometer data as inputs, with SpO₂ prediction error serving as the supervision target.
-
-* Developed a unit-independent wrist-GSR stress-detection pipeline using cvxEDA decomposition and robust z-score normalization to extract phasic nSCR features for stress-task classification with a Random Forest classifier.
+  * Developed a unit-independent wrist-GSR stress-detection pipeline using cvxEDA decomposition and robust z-score normalization to extract phasic nSCR features for stress-task classification with  Random Forest classifier.
 
 ### Wearable Healthcare Firmware Algorithms
 
-* Designed a lightweight, real-time wrist SpO₂ estimation pipeline for smartwatch firmware using beat-level AC/DC extraction, accelerometer-derived motion weighting, weighted-median ratio-of-ratios aggregation, and perfusion-guided calibration on low-rate PPG under micro-perturbations.
+  * Designed a lightweight, real-time wrist SpO$_2$ estimation pipeline for smartwatch firmware using beat-level AC/DC extraction, accelerometer-derived motion weighting, weighted-median ratio-of-ratios aggregation, and perfusion-guided calibration on low-rate PPG under micro-perturbations.
 
-* Implemented FFT-based spectral heart-rate estimation with Wiener filtering to suppress motion artifacts.
+* Implemented FFT-based spectral heart-rate estimation with Wiener filtering to suppress motion artifacts, along with PID-controlled optical intensity adjustment in smartwatch firmware.
 
-* Implemented PID-controlled optical-intensity adjustment in smartwatch firmware.
-
-* Led data management and preprocessing for ECG, PPG, GSR, and respiratory signals collected during stress tasks.
-
-* Authored IRB protocols for human-subject physiological-data collection.
+  * Led data management and preprocessing for ECG, PPG, GSR, and respiratory signals collected during stress tasks, and authored IRB protocols for human subject physiological data collection.
 
 
 ## Research Assistant, South China University of Technology

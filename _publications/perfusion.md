@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/perfusion
 excerpt: 'Author: **Zequan Liang**, Ning Miao, Wei Shao, Mahdi Pirayesh Shirazi Nejad, Ehsan Kourkchi, Hossein Sayadi, Setareh Rafatirad, Houman Homayoun'
 date: 2026-07-09
-venue: 'arXiv preprint arXiv:2607.08001'
+venue: '2026 IEEE 21st International Conference on Body Sensor Networks (BSN)'
 detail_paperurl: 'https://arxiv.org/abs/2607.08001'
 ---
 [Paper Link]({{ page.detail_paperurl }})
